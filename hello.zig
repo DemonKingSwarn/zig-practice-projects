@@ -1,6 +1,5 @@
 const print = @import("std").debug.print;
 const expect = @import("std").testing.expect;
-const String = @import("./zig-strings.zig").String;
 
 const arr = [3]i32{1, 2, 3};
 var sl = [_]i32{1, 2, 3, 5};
